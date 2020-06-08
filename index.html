@@ -1,1 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">	
+	<title>First assignment.</title>
+	<style type="text/css">
+		#heading{
+			text-align: center;
+		}
+		#box{
+			position: relative;
+            background-color: gray;
+			padding: 1px;
+			border: 1px solid black;
+			margin: 5px;
+		}
+		
+		#content{
+			text-align: right;
+			border: 1px solid black;
+			background-color: red;
+			
 
+
+		}
+		@media(min-width: 800px){
+			#box{
+				width: 30%;
+				float: left;
+				border: 1px solid black;
+			}
+		}
+		@media(max-width:779px)and(min-width:600px){
+			#box{
+				width: 35%;
+				float: left;
+				border: 1px solid black;
+			}
+		}
+		@media(max-width: 599px){
+	        #box{
+	        	width: 50%;
+	        	float: left;
+	        	border: 1px solid black;
+	        }
+		}
+	</style>
+</head>
+<body>
+	<h1 id="heading">Meditating is good for health!</h1>
+	<div id="box">
+		<div><h2 id="content">How to start?</h2>
+			<h3 id="matter">Thoughtless awareness:in which you should try to keep your mind empty i.e.without any thoughts.Most of the times we keep on thinking one thing or the other.So firstly we should avoid thinking much.</h3></div>
+	</div>
+	<div id="box">
+		<div><h2 id="content">Starting meditation</h2>
+			<h3 id="matter">You should start by sitting for 5 minutes in the starting and then gradualy increasing the time according to your own convinience.It completely depends on you at which time you want to meditate but it is more effective in morning.</h3></div>
+	</div>
+	<div id="box">
+		<div><h2 id="content">Result!</h2>
+			<h3 id="matter">After somedays you will realise that now you are more calm and relaxed,that you have started worrying less,that you have a sense of peace in your head.</h3></div>
+	</div>
+
+</body>
+</html>
